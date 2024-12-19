@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host) {
     if (dnsDomainIs(host, "services-mob.panerabread.com")) {
-        //if (shExpMatch(url, "*/otp/checkUsername*")) {
-        if (shExpMatch(url, "*services-mob.panerabread.com*")) {
+        if (shExpMatch(url, "*/otp/checkUsername*")) {
+        //if (shExpMatch(url, "*services-mob.panerabread.com*")) {
             return "DIRECT";
         } else {
             return "PROXY 192.168.50.93:8888; DIRECT";
