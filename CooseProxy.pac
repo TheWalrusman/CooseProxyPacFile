@@ -3,6 +3,6 @@ function FindProxyForURL(url, host) {
         //shExpMatch("http://home.netscape.com/people/ari/index.html", "*/ari/*"); // returns true
       return "DIRECT";
     } else {
-      return "PROXY 192.168.8.112:8888";
+      return "PROXY 192.168.8.112:8888; PROXY 192.168.50.53:8888";
     }
   }
