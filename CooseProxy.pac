@@ -10,5 +10,6 @@ function FindProxyForURL(url, host) {
     } else {
         return "PROXY 192.168.50.93:8888; DIRECT";
       //return "PROXY 192.168.8.112:8888; DIRECT";
+      // Hi
     }
   }
