@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-    if (dnsDomainIs(host, "https://services-mob.panerabread.com")) {
+    if (dnsDomainIs(host, "services-mob.panerabread.com")) {
         if (shExpMatch(url, "*/otp/checkUsername*")) {
             return "DIRECT";
         } else {
